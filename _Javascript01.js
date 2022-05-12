@@ -28,9 +28,9 @@ cada propriedade possui um nome e valor(do tipo primitivo ou de objeto)
   
   Javascript é uma linguagem orientada a objetos. Isso significa que, em vez de ter funções definidas globalmente para operar valores de vários
   tipos, os próprios tipos definem métodos para trabalhar com valores.
-    Por exemplo:  Para classificar os elementos de um array, a por exemplo, não passamos  vetor_a para uma função sort(). Em vez disso, 
+    Por exemplo:  Para classificar os elementos de um array, vetor_a por exemplo, não passamos  vetor_a para uma função sort(). Em vez disso, 
     chamamos o método sort de vetor_a
-    vetor_a.sort()   que é a versão orientada a objeto de  sort(vetor_a).
+    vetor_a.sort()   que é a versão orientada a objeto de sort(vetor_a).
 
     basicamente somente objetos possuem métodos, mas os tipos primitivos se comportam como se tivessem métodos, null e undefined não
     possuem métodos para serem chamados.
