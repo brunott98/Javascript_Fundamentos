@@ -3,7 +3,7 @@ mas se for utilizado com strings ele as une, anexando a primeira com a segunda. 
 
 console.log(msg = "Bonjour" + " mademoiselle")  // Bonjour mademoiselle
 
-/* Pode-se determianr o comprimento de uma string - o número de valores de 16 bits que ela contém - usando a propriedade lenght. */
+/* Pode-se determinar o comprimento de uma string - o número de valores de 16 bits que ela contém - usando a propriedade lenght. */
 
 let frase = "Bom dia senhorita"
 
