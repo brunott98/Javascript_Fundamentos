@@ -51,3 +51,9 @@ else{
                         // dimensão ser diferente de null
 }
 
+let teorema = NaN
+let acesso = true
+let update = false
+console.log(!!teorema)  //Uma forma de converter para booleano e verificar se é verdadeiro ou falso
+console.log(!!acesso) 
+console.log(!!update) 
