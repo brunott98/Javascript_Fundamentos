@@ -30,4 +30,7 @@ const greetings ={
 
 console.log(greetings.Code("Bom dia"))
 
+/*
+Cada chamda de uma função tem outro valor, o contexto da chamada, utilizando a palavra this.
 
+*/
