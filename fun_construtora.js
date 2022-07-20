@@ -1,7 +1,7 @@
 
 function Carro(velocidade_maxima = 200, delta = 5){
     
-    let velocidade_atual = 0;  //Atributo privado
+    let velocidade_atual = 0;  //Atributo privado - para privar basta usar let ou const :)
 
     this.acelerar = function(){     //Fazendo acelerar ser um método público através do this
 
