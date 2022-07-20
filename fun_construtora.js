@@ -27,60 +27,14 @@ function Carro(velocidade_maxima = 200, delta = 5){
 const uno = new Carro
 
 uno.acelerar()
-console.log(uno.get_velocidade_atual())
+console.log(uno.get_velocidade_atual())  //5
 
 
 const ferrari = new Carro(350,20)
-ferrari.acelerar()
-console.log(ferrari.get_velocidade_atual())
-ferrari.acelerar()
-console.log(ferrari.get_velocidade_atual())
+ferrari.acelerar()  
+console.log(ferrari.get_velocidade_atual())  //20
+ferrari.acelerar() 
+console.log(ferrari.get_velocidade_atual())  //40
 
-console.log(typeof(Carro))
-console.log(typeof(uno))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(typeof(Carro)) //function
+console.log(typeof(uno)) //object
