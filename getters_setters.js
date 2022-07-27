@@ -151,3 +151,30 @@ horsePower 760
 rpm 7500 
 
 */
+
+/*Object.prevent Extensions */
+
+const produto = Object.preventExtensions({   //Não pode adcionar atributos
+    nome:"Qualquer", preco: 1.55, tag:"Promoção"
+})
+
+console.log('Extensivel:',Object.isExtensible(produto))
+produto.descricao = "Cilindro de aluminio"
+delete produto.tag
+console.log(produto)
+
+const Mustang = {
+    model: "Mustang Shelby GT500",
+    year: 2022,
+    price: 650000.
+}
+
+Object.seal(Mustang)  //Não consegue adcionar nem remover propriedades, apenas alter os valores das propriedades já existentes
+Mustang.price = 630000
+
+console.log(Mustang)
+
+
+
+
+
